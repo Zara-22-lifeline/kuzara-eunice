@@ -1,0 +1,47 @@
+*{
+     background: white;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+    header img{
+        width: 200px;
+        height: auto;
+        border-radius: 15px;
+    }
+    a{
+        display: flex;
+        color: orange;
+        padding: 5px;
+        text-decoration: none;
+    }
+    h1,h3{
+        color: cadetblue;
+    }
+    h2{
+        color: orange;
+    }
+    input{
+        display: block;
+        padding: 5px;
+        margin: 7px;
+        width: 50%;
+        border-radius: 5px;
+    }
+    footer,footer p, footer h3{
+        background: cadetblue;
+        color: white;
+        padding: 15px;
+    }
+    @media (max-width:500px){
+    header{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    input{
+        width: 70%;
+    }
+
+}
